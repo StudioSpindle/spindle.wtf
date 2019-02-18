@@ -1,0 +1,24 @@
+{
+  "name": "spindle.wtf",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "next": "^8.0.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StudioSpindle/spindle.wtf.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StudioSpindle/spindle.wtf/issues"
+  }
+}

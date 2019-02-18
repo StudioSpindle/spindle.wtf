@@ -1,1 +1,11 @@
+# IDE files
 .idea/
+
+# Dependency directories
+node_modules/
+
+# Framework files
+.next/
+
+# Mac files
+.DS_Store
