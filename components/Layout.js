@@ -6,6 +6,8 @@ const Layout = ( { children } ) => (
         <title>Spindle - coming soon</title>
         <meta name="description" content="Coming soon: New opportunities require original technology. Give IT a spin." />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i" rel="stylesheet">
       </Head>
 
       {children}
@@ -20,10 +22,6 @@ const Layout = ( { children } ) => (
           --theme-scale-section-m: 40px;
           --theme-scale-section-s: 20px;
         }
-
-        /* custom fonts import */
-        @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
-        @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
         /* reset */
         html,
