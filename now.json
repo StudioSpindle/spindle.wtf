@@ -1,7 +1,4 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "next.config.js", "use": "@now/next" }
-  ],
-  "alias": "https://zeit.co/remi"
+  "builds": [{ "src": "next.config.js", "use": "@now/next" }]
 }
