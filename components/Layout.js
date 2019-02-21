@@ -17,6 +17,10 @@ const Layout = ({ children }) => (
         href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i"
         rel="stylesheet"
       />
+      <meta
+        name="google-site-verification"
+        content="5LPKWSArcETkOWy_LPr-4TNbzVqIdyKU-k-EkoC0vTU"
+      />
     </Head>
 
     {children}
