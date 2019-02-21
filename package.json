@@ -7,12 +7,23 @@
     "react": "^16.8.2",
     "react-dom": "^16.8.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.16.4"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "prettier:check": "prettier --check $npm_package_nextFiles",
+    "prettier:fix": "prettier --write $npm_package_nextFiles",
+    "test:lint": "tslint --project ./tsconfig.json"
   },
+  "nextFiles": "{{components,epics,lib,mutations,pages,reducers,scripts,test,themes,types},__{tests,mocks,generated}__}/**/*.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/StudioSpindle/spindle.wtf.git"
