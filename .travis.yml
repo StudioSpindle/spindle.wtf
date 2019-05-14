@@ -13,4 +13,4 @@ script:
 
 after_success:
   - now --target staging
-  - npm run lh -- https://spindlewtf.remi.now.sh
+  - npm run lh -- --pwa=100 --perf=96 --seo=100 --a11y=90 --bp=90 https://spindlewtf.remi.now.sh
