@@ -46,3 +46,11 @@ $ npm run prettier:fix
 ### Deployment
 
 Deployment is done via [ZEIT Now](https://zeit.co/docs).
+
+### CI
+
+On the CI (Travis) the service 'lighthouse' is run to test performance, quality, and correctness. 
+
+### Testing
+
+[ Coming soon ]

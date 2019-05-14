@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "next": "^8.0.1",
+    "next": "^8.1.0",
     "react": "^16.8.2",
     "react-dom": "^16.8.2"
   },
@@ -13,15 +13,22 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
-    "prettier": "^1.16.4"
+    "lighthouse-ci": "^1.6.0",
+    "lighthousebot": "git+https://github.com/GoogleChromeLabs/lighthousebot.git",
+    "npm": "^6.8.0",
+    "prettier": "^1.16.4",
+    "serve": "^10.1.2"
   },
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
     "prettier:check": "prettier --check $npm_package_nextFiles",
     "prettier:fix": "prettier --write $npm_package_nextFiles",
-    "test:lint": "tslint --project ./tsconfig.json"
+    "test:lint": "tslint --project ./tsconfig.json",
+    "now-build": "next build",
+    "lh": "lighthousebot"
   },
   "nextFiles": "{{components,epics,lib,mutations,pages,reducers,scripts,test,themes,types},__{tests,mocks,generated}__}/**/*.js",
   "repository": {
