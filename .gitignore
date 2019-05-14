@@ -6,6 +6,7 @@ node_modules/
 
 # Framework files
 .next/
+out/
 
 # Mac files
 .DS_Store
