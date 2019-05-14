@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "next": "^8.0.1",
+    "next": "^8.1.0",
     "react": "^16.8.2",
     "react-dom": "^16.8.2"
   },
@@ -25,6 +25,7 @@
     "prettier:check": "prettier --check $npm_package_nextFiles",
     "prettier:fix": "prettier --write $npm_package_nextFiles",
     "test:lint": "tslint --project ./tsconfig.json",
+    "now-build": "next build",
   },
   "nextFiles": "{{components,epics,lib,mutations,pages,reducers,scripts,test,themes,types},__{tests,mocks,generated}__}/**/*.js",
   "repository": {
