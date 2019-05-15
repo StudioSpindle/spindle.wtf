@@ -10,3 +10,6 @@ out/
 
 # Mac files
 .DS_Store
+
+# environment files
+.env

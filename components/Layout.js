@@ -21,6 +21,11 @@ const Layout = ({ children }) => (
         name="google-site-verification"
         content="5LPKWSArcETkOWy_LPr-4TNbzVqIdyKU-k-EkoC0vTU"
       />
+      {/* polyfill for the fetch API */}
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"
+        charSet="utf-8"
+      />
     </Head>
 
     {children}
